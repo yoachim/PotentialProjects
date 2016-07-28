@@ -31,3 +31,7 @@ Take a bunch of stellar spectra, figure out how well LSST will be able to recove
 
 damn, I need to finish this:
 https://github.com/yoachim/AstroHireNetwork
+
+## Gemini South Archive of Stellar Spectra
+
+Use the Gemini South data archive to look at how the sky background and atmospheric parameters vary with time. Talk from SPIE made it sound like they were already doing similar things. (talk was by Katherine Roth (Gemini) of work by Aam Smith (Gemini)).
