@@ -35,3 +35,7 @@ https://github.com/yoachim/AstroHireNetwork
 ## Gemini South Archive of Stellar Spectra
 
 Use the Gemini South data archive to look at how the sky background and atmospheric parameters vary with time. Talk from SPIE made it sound like they were already doing similar things. (talk was by Katherine Roth (Gemini) of work by Aam Smith (Gemini)).
+
+## Structure in Outer Galaxy Disks
+
+In this paper (http://adsabs.harvard.edu/abs/2012ApJ...752...97Y), we looked at the star formation histories in the outskirts of 12 galaxies.  Given new simulations, we'd like to see if there are spiral arms or other excited modes in the faint outer parts of these galaxies.  If we can't find archival data, this would be a fun observing project to use APO for. 
