@@ -39,3 +39,16 @@ Use the Gemini South data archive to look at how the sky background and atmosphe
 ## Structure in Outer Galaxy Disks
 
 In this paper (http://adsabs.harvard.edu/abs/2012ApJ...752...97Y), we looked at the star formation histories in the outskirts of 12 galaxies.  Given new simulations, we'd like to see if there are spiral arms or other excited modes in the faint outer parts of these galaxies.  If we can't find archival data, this would be a fun observing project to use APO for. 
+
+## Making better plots
+
+I would like to make a utility function that makes it easy to generate publication-ready and slide-ready and web-ready images all at the same time:  https://github.com/yoachim/matplotlib_pubplots
+
+## Stellar metallicties with LSST and narrow band imaging
+
+If we were to add a narrow band filter to LSST, where should we put it to optimize how well we can recover stellar matallicities?  
+
+## Spec out a better all-sky camera for LSST
+
+I want a nice little notebook that specs out how deep one would have to observe the sky to measure cloud extiction to a given extinction depth and spatial resolution and extinction precision.
+
