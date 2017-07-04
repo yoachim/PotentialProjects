@@ -6,7 +6,7 @@ Here are a number of potential research projects I'm interested in working on.
 
 https://github.com/yoachim/IFU_Aperture_Phot
 
-Given the wealth of archival imaging out there, we need stellar population fitting software that can incorporate both spectra and photometry. There are a huge number of codes that fit spectra, and a bunch that fit SEDs (see http://www.sedfitting.org/SED08/Fitting.html), but I still haven't found anything that does both.
+Given the wealth of archival imaging out there, we need stellar population fitting software that can incorporate both spectra and photometry. There are a huge number of codes that fit spectra, and a bunch that fit SEDs (see http://www.sedfitting.org/SED08/Fitting.html), but I still haven't found anything that does both. UPDATE: Nice new code that can fit spectra and photometry: [SPARTAN](https://bitbucket.org/spartan_project/spartan/wiki/Communication)
 
 
 ## PSF effects on measuring thick disk flux
