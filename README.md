@@ -11,7 +11,7 @@ Given the wealth of archival imaging out there, we need stellar population fitti
 
 ## PSF effects on measuring thick disk flux
 
-This paper http://adsabs.harvard.edu/abs/2015A%26A...577A.106S basically makes the claim that my thesis work is junk because I didn't take into account how light diffracts as it is imaged by the telescope.  
+This paper http://adsabs.harvard.edu/abs/2015A%26A...577A.106S basically makes the claim that my thesis work is junk because I didn't take into account how light diffracts as it is imaged by the telescope.  UPDATE: Just heard someone else took the lead on this.
 
 ## LSB co-added images in LSST
 
@@ -37,6 +37,10 @@ I'd like to modify astroplan to estimate signal-to-noise since that is the thing
 
 Take a bunch of stellar spectra, figure out how well LSST will be able to recover stellar metallicity. What if we add a narrow-band filter? https://github.com/lsst-sims/sims_narrowband_stellarZ
 
+## Star Galaxy Separation with IR
+
+Similar to the above, I want to know how well we could do star galaxy separation in LSST data if we had IR observations as well. In theory, galaxies should be bright in the IR while stars get fainter.
+
 ## Astronomer Employment via publication records
 
 damn, I need to finish this:
@@ -55,6 +59,4 @@ In this paper (http://adsabs.harvard.edu/abs/2012ApJ...752...97Y), we looked at 
 
 I would like to make a utility function that makes it easy to generate publication-ready and slide-ready and web-ready images all at the same time:  https://github.com/yoachim/matplotlib_pubplots
 
-## Stellar metallicities with LSST and narrow band imaging
 
-If we were to add a narrow band filter to LSST, where should we put it to optimize how well we can recover stellar metallicities?  
