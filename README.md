@@ -2,27 +2,28 @@
 
 Here are a number of potential research projects I'm interested in working on.
 
-## Combine IFU data cubes with archival aperture photometry
 
-https://github.com/yoachim/IFU_Aperture_Phot
+## Fitting All Sky Camera WCS
 
-Given the wealth of archival imaging out there, we need stellar population fitting software that can incorporate both spectra and photometry. There are a huge number of codes that fit spectra, and a bunch that fit SEDs (see http://www.sedfitting.org/SED08/Fitting.html), but I still haven't found anything that does both. UPDATE: Nice new code that can fit spectra and photometry: [SPARTAN](https://bitbucket.org/spartan_project/spartan/wiki/Communication)
+Most observatories these days have all-sky fishey cameras to monitor the weather. It should be possible to automate fitting the WCS solution of these sorts of cameras, then making a pipeline to automate detection of clouds and things.  
 
+Initial notebook playing around with it here:  https://github.com/yoachim/20_Scratch/blob/master/all_sky_example/example_all_sky.ipynb
 
-## PSF effects on measuring thick disk flux
+This would be a great project to fold into the astropy WCS filtting procedure, or make an astropy affiliated package.
 
-This paper http://adsabs.harvard.edu/abs/2015A%26A...577A.106S basically makes the claim that my thesis work is junk because I didn't take into account how light diffracts as it is imaged by the telescope.  UPDATE: Just heard someone else took the lead on this.
+## Proper uncertainties on star formation histories
+
+I have some galaxy spectra I'd like to fit star formation histories to. I think this package is what I'm looking for, just need to figure out how to run it:  https://dfm.io/python-fsps/current/
+
+or maybe this one:  https://prospect.readthedocs.io/en/latest/
+
+Or maybe this one:  https://bagpipes.readthedocs.io/en/latest/
+
 
 ## LSB co-added images in LSST
 
 It would be nice to have a procedure in the LSST framework for generating co-added images that is optimized for low surface brightness work. Could be a paper summarizing the general algorithm, then an implantation in the stack.
 
-## Are GLSB cores normal elliptical galaxies?
-
-XXX-touch base with Denise to see what's going on here.
-follow-up based on this paper: https://github.com/yoachim/glsbPaper
-
-High spatial resolution IFU observations on these objects would be great.
 
 ## VIRUS-P of UGC1382 
 
@@ -37,6 +38,10 @@ I'd like to modify astroplan to estimate signal-to-noise since that is the thing
 
 Take a bunch of stellar spectra, figure out how well LSST will be able to recover stellar metallicity. What if we add a narrow-band filter? https://github.com/lsst-sims/sims_narrowband_stellarZ
 
+There was some work started on this, I'm not sure the paper ever got submitted. Looks like there was some work here:  https://www.overleaf.com/project/5d675af7d9c3da5e667b0415
+
+and another repo here:  https://github.com/yoachim/LSST_narrowband
+
 ## Star Galaxy Separation with IR
 
 Similar to the above, I want to know how well we could do star galaxy separation in LSST data if we had IR observations as well. In theory, galaxies should be bright in the IR while stars get fainter.
@@ -46,17 +51,7 @@ Similar to the above, I want to know how well we could do star galaxy separation
 damn, I need to finish this:
 https://github.com/yoachim/AstroHireNetwork
 
+## A meta science project
 
-## Gemini South Archive of Stellar Spectra
-
-Use the Gemini South data archive to look at how the sky background and atmospheric parameters vary with time. Talk from SPIE made it sound like they were already doing similar things. (talk was by Katherine Roth (Gemini) of work by Aam Smith (Gemini)).
-
-## Structure in Outer Galaxy Disks
-
-In this paper (http://adsabs.harvard.edu/abs/2012ApJ...752...97Y), we looked at the star formation histories in the outskirts of 12 galaxies.  Given new simulations, we'd like to see if there are spiral arms or other excited modes in the faint outer parts of these galaxies.  If we can't find archival data, this would be a fun observing project to use APO for. 
-
-## Making better plots
-
-I would like to make a utility function that makes it easy to generate publication-ready and slide-ready and web-ready images all at the same time:  https://github.com/yoachim/matplotlib_pubplots
-
+Could look at how HST proposals perform as a function of oversubscription (and other things, time alloted, etc)
 
