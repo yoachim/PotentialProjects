@@ -7,17 +7,13 @@ Here are a number of potential research projects I'm interested in working on.
 
 Most observatories these days have all-sky fishey cameras to monitor the weather. It should be possible to automate fitting the WCS solution of these sorts of cameras, then making a pipeline to automate detection of clouds and things.  
 
-Initial notebook playing around with it here:  https://github.com/yoachim/20_Scratch/blob/master/all_sky_example/example_all_sky.ipynb
+Initial notebook playing around with it here:  https://github.com/yoachim/23_Scratch/blob/main/all_sky_fit/all_sky.ipynb
 
 This would be a great project to fold into the astropy WCS filtting procedure, or make an astropy affiliated package.
 
 ## Proper uncertainties on star formation histories
 
-I have some galaxy spectra I'd like to fit star formation histories to. I think this package is what I'm looking for, just need to figure out how to run it:  https://dfm.io/python-fsps/current/
-
-or maybe this one:  https://prospect.readthedocs.io/en/latest/
-
-Or maybe this one:  https://bagpipes.readthedocs.io/en/latest/
+I have some galaxy spectra I'd like to fit star formation histories to. I think this package is what I'm looking for, just need to figure out how to run it:  https://bagpipes.readthedocs.io/en/latest/
 
 
 ## LSB co-added images in LSST
